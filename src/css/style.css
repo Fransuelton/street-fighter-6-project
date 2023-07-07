@@ -87,8 +87,8 @@ body::before {
 }
 
 .character-selected .big-character {
-    width: 430px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 
 .character-selected .character-name {
