@@ -87,7 +87,7 @@ body::before {
 }
 
 .character-selected .big-character {
-    width: 100%;
+    width: 430px;
     height: 400px;
 }
 
