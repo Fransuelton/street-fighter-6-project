@@ -1,0 +1,40 @@
+@media (max-width: 1120px) {
+    .header .logo {
+        max-width: 190px;
+    }
+
+    .character-selection {
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .character-selection .characters {
+        margin-top: 37px;
+    }
+
+    .character-selection .characters .title {
+        font-size: 15px;
+        min-height: min(7.625vw,108px);
+        background: url(../images/interface_top.png) no-repeat bottom/min(90.28125vw,1887px);
+    }
+
+    .character-selection .character-list {
+        gap: 9px;
+    }
+
+    .character-selection .character img {
+        width: 80px;
+    }
+
+    .character-selected .big-character {
+        width: 350px;
+        height: 350px;
+    }
+
+    .character-selected .character-description {
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}
