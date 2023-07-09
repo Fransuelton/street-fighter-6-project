@@ -79,6 +79,7 @@ body::before {
     filter: brightness(1.2);
     border-radius: 10px;
     box-shadow: 0px 0px 24px 5px #7a2ecf;
+    transition: 0.3s ease-in-out;
 }
 
 .character-selected {
