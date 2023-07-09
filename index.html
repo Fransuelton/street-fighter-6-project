@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./src/css/responsive.css">
     <title>Projeto Street Fighter 6 - SZPC</title>
 </head>
+
 <body>
     <header class="header">
         <img class="logo" src="./src/images/logo.svg" alt="Logo Street Fighter 6">
@@ -19,35 +21,43 @@
             <h1 class="title">Selecione um personagem</h1>
             <ul class="character-list">
 
-                <li class="character selected" id="zangief">
+                <li class="character selected" id="zangief" data-name="zangief" data-description="Um lutador gigantesco conhecido como Ciclone
+                Vermelho. Zangief se dedica a melhorar o próprio físico e orientar estudantes.">
                     <img src="./src/images/card-zangief.jpg" alt="character zangief">
                 </li>
 
-                <li class="character" id="ehonda">
+                <li class="character" id="ehonda" data-name="e.honda"
+                    data-description="Um lutador de sumô que busca popularizar esse esporte pelo mundo, E. Honda poderia chegar a yokozuna, mas as viagens constantes impedem sua promoção. Ele também é um cozinheiro de primeira, conhecido pelo seu chankonabe.">
                     <img src="./src/images/card-ehonda.jpg" alt="character e.honda">
                 </li>
 
-                <li class="character" id="dhalsim">
+                <li class="character" id="dhalsim" data-name="dhalsim"
+                    data-description="Um monge indiano e mestre da ioga que guiou inúmeras almas perdidas. Prefere evitar conflitos sempre que possível, mas seu desgosto inato pelo mal o instiga a fazer justiça com firmeza.">
                     <img src="./src/images/card-dhalsim.jpg" alt="character dhalsim">
                 </li>
 
-                <li class="character" id="blanka">
+                <li class="character" id="blanka" data-name="blanka"
+                    data-description="Defensor benevolente da natureza, Blanka se tornou guia turístico de aventuras, acreditando que a intimidade com a selva servirá de passaporte para a fama e garantirá uma vida boa para sua amada mãe.">
                     <img src="./src/images/card-blanka.jpg" alt="character blanka">
                 </li>
 
-                <li class="character" id="ken">
+                <li class="character" id="ken" data-name="ken"
+                    data-description="Ex-campeão do Campeonato Nacional de Luta e ex-vice-presidente da Fundação Masters. Acusações de orquestrar um plano criminoso forçaram Ken a abandonar negócios e família e se esconder.">
                     <img src="./src/images/card-ken.jpg" alt="character ken">
                 </li>
 
-                <li class="character" id="guile">
+                <li class="character" id="guile" data-name="guile"
+                    data-description="Piloto da força aérea estadunidense e defensor do país, Guile conseguiu vencer a Shadaloo e vingar seu amigo Charlie. Embora goste da vida familiar como poucos, novos campos de batalha o esperam.">
                     <img src="./src/images/card-guile.jpg" alt="character guile">
                 </li>
 
-                <li class="character" id="chunli">
+                <li class="character" id="chunli" data-name="chun-li"
+                    data-description="Ex-agente em ascensão da ICPO, Chun-Li cuida de Li-Fen, vítima do Incidente da Black Moon. Com a Shadaloo agora dividida, Chun-Li dá aulas de kung fu e se tornou uma figura adorada pela comunidade local.">
                     <img src="./src/images/card-chunli.jpg" alt="character chunli">
                 </li>
 
-                <li class="character" id="ryu">
+                <li class="character" id="ryu" data-name="ryu"
+                    data-description="Treinando incessantemente, este lutador busca a verdadeira força. Sincero e educado, Ryu viaja pelo mundo em busca de oponentes dignos. Depois de dominar o Satsui no Hado, agora ele busca alçar novos voos.">
                     <img src="./src/images/card-ryu.jpg" alt="character ryu">
                 </li>
             </ul>
@@ -56,11 +66,12 @@
             <img class="big-character" src="./src/images/zangief.png" alt="selected-character">
 
             <div class="character-information">
-                <h2 class="character-name" id="character-name">Zangief</h2>
+                <h2 class="character-name" id="character-name">zangief</h2>
                 <p class="character-description" id="character-description">Um lutador gigantesco conhecido como Ciclone Vermelho. Zangief se dedica a melhorar o próprio físico e orientar estudantes.</p>
             </div>
         </section>
     </main>
+    <script src="src/js/index.js"></script>
 </body>
 
 </html>
