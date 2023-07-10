@@ -51,7 +51,7 @@ body::before {
 
 .character-selection .characters .title {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 4px;
     text-transform: uppercase;
     width: 100%;
@@ -59,10 +59,13 @@ body::before {
     background: url(../images/interface_top.png) no-repeat bottom/min(70.28125vw,1887px);
     min-height: min(3.625vw,108px);
     margin: 0 0 calc(1px - min(1.0416666667vw,20px));
-    font-size: min(2.0833333333vw,40px);
     text-shadow: 0 0 min(.5208333333vw,10px) #7a2ecf,0 0 min(.5208333333vw,10px) #7a2ecf;
     filter: drop-shadow(0 0 min(1.0416666667vw,20px) #000);
 }
+
+/* .character-list .character {
+    border-bottom: 4px solid #47f4ff;
+} */
 
 .character-list .character img {
     width: 100%;
